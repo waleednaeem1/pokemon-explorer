@@ -1,0 +1,35 @@
+.pokemon-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pokemon-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-image-container {
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .pokemon-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .pokemon-info > div {
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-info > hr {
+    width: 100%;
+    margin: 10px 0;
+  }
+  

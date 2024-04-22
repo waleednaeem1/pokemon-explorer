@@ -1,8 +1,32 @@
-# Getting Started with Create React App
+# Pokemon Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pokemon Explorer is a web application that allows users to explore and view information about different Pokémon. Users can browse a list of Pokémon, view their details, and learn more about each one.
 
-## Available Scripts
+## Features
+
+- **Pokemon List**: Browse a list of Pokémon, including their names and images.
+- **Pokemon Details**: View detailed information about each Pokémon, such as their height, weight, and image.
+- **Dynamic Routing**: Navigate between the Pokemon List and Pokemon Details pages seamlessly without page refresh.
+
+## Technologies Used
+
+- **React**: The frontend of the application is built using React, a JavaScript library for building user interfaces.
+- **React Router**: Used for client-side routing to enable navigation between different pages of the application.
+- **Redux Toolkit**: Manages application state, including API data fetching and caching.
+- **PokeAPI**: An external RESTful API used to fetch data about Pokémon.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/pokemon-explorer.git
+
+2. `npm install`
+
+3. ## Available Scripts
 
 In the project directory, you can run:
 
@@ -44,3 +68,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+4. `Open your web browser and go to http://localhost:3000 to view the application.`
+
+# Contributing
+
+    Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+    Fork the repository.
+    Create a new branch: git checkout -b feature/my-feature.
+    Commit your changes: git commit -am 'Add new feature'.
+    Push to the branch: git push origin feature/my-feature.
+    Submit a pull request.
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
